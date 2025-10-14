@@ -58,13 +58,10 @@ var_db = IntVar()
 
 cb_python = Checkbutton(window, text="Python Programming", variable=var_python)
 cb_python.grid(row=4, column=0, sticky="w", padx=20)
-
 cb_data = Checkbutton(window, text="Data Structures", variable=var_data)
 cb_data.grid(row=5, column=0, sticky="w", padx=20)
-
 cb_web = Checkbutton(window, text="Web Development", variable=var_web)
 cb_web.grid(row=6, column=0, sticky="w", padx=20)
-
 cb_db = Checkbutton(window, text="Database Management", variable=var_db)
 cb_db.grid(row=7, column=0, sticky="w", padx=20)
 
